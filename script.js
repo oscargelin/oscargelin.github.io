@@ -1,7 +1,7 @@
 // Index page
 
 console.log(document.location.pathname);
-const indexPage = "/";
+const indexPage = "/index.html";
 const altIndexPage = "https://oscargelin.github.io/index.html";
 const contactPage = "/~osge0002/Portfolio%202.0/contact.html";
 
