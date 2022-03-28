@@ -3,6 +3,8 @@
 console.log(document.location.pathname);
 const indexPage = "/index.html";
 const altIndexPage = "/";
+console.log("index page: " + indexPage)
+console.log("altIndexPage: " + altIndexPage)
 const contactPage = "/~osge0002/Portfolio%202.0/contact.html";
 
 // Fetching gradient colors for bg and btns
