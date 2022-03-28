@@ -2,7 +2,7 @@
 
 console.log(document.location.pathname);
 const indexPage = "/";
-const altIndexPage = "/~osge0002/Portfolio%202.0/";
+const altIndexPage = "https://oscargelin.github.io/index.html";
 const contactPage = "/~osge0002/Portfolio%202.0/contact.html";
 
 // Fetching gradient colors for bg and btns
