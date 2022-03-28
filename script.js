@@ -78,6 +78,7 @@ function checkPathName() {
 }
 function secondaryTheme() {
   document.body.style.backgroundImage = gradientBlue;
+    console.log(window.location.pathname);
   if (checkPathName()) {
     portfolioBtn.style.backgroundImage = gradientBlue;
     cvBtn.style.backgroundImage = gradientBlue;
