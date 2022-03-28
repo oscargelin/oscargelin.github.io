@@ -101,10 +101,10 @@ function thirdTheme() {
 }
 function fourthTheme() {
   document.body.style.backgroundImage = gradientGrey;
-  if (checkPathName()) {
+  
     portfolioBtn.style.backgroundImage = gradientGrey;
     cvBtn.style.backgroundImage = gradientGrey;
-  }
+  
   leftGridContent.style.backgroundColor = "#323330";
   siteLogo.style.backgroundImage = gradientGrey;
   localStorage.setItem("theme", gradientGrey);
