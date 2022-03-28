@@ -1,9 +1,7 @@
 // Index page
 
-console.log(document.location.pathname);
 const indexPage = "/index.html";
 const altIndexPage = "https://oscargelin.github.io/index.html";
-const contactPage = "/~osge0002/Portfolio%202.0/contact.html";
 
 // Fetching gradient colors for bg and btns
 let gradientGreen = getComputedStyle(document.documentElement).getPropertyValue(
@@ -78,7 +76,7 @@ function checkPathName() {
 }
 function secondaryTheme() {
   document.body.style.backgroundImage = gradientBlue;
-    console.log(window.location.pathname);
+   console.log(document.location.pathname);
   if (checkPathName()) {
     portfolioBtn.style.backgroundImage = gradientBlue;
     cvBtn.style.backgroundImage = gradientBlue;
