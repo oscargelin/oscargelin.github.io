@@ -1,12 +1,17 @@
 // Index page
+console.log(document.location.pathname)
 
 const indexPage = "/index.html";
+console.log(indexPage);
+console.log(document.location.pathname)
+
 const altIndexPage = "https://oscargelin.github.io/index.html";
 
 // Fetching gradient colors for bg and btns
 let gradientGreen = getComputedStyle(document.documentElement).getPropertyValue(
   "--gradient-green-color"
 );
+console.log(document.location.pathname)
 
 let gradientBlue = getComputedStyle(document.documentElement).getPropertyValue(
   "--gradient-blue-color"
@@ -76,7 +81,6 @@ function checkPathName() {
 }
 function secondaryTheme() {
   document.body.style.backgroundImage = gradientBlue;
-   console.log(document.location.pathname);
   if (checkPathName()) {
     portfolioBtn.style.backgroundImage = gradientBlue;
     cvBtn.style.backgroundImage = gradientBlue;
@@ -101,10 +105,10 @@ function thirdTheme() {
 }
 function fourthTheme() {
   document.body.style.backgroundImage = gradientGrey;
-  
+  if (checkPathName()) {
     portfolioBtn.style.backgroundImage = gradientGrey;
     cvBtn.style.backgroundImage = gradientGrey;
-  
+  }
   leftGridContent.style.backgroundColor = "#323330";
   siteLogo.style.backgroundImage = gradientGrey;
   localStorage.setItem("theme", gradientGrey);
