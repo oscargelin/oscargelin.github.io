@@ -1,7 +1,7 @@
 // Index page
 
 console.log(document.location.pathname);
-const indexPage = "/~osge0002/Portfolio%202.0/index.html";
+const indexPage = "/";
 const altIndexPage = "/~osge0002/Portfolio%202.0/";
 const contactPage = "/~osge0002/Portfolio%202.0/contact.html";
 
