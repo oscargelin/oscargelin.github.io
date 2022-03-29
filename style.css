@@ -425,6 +425,7 @@ h6 {
 .portfolio-card img {
   border-radius: var(--standard-radius);
   box-shadow: 0px 0px 2px 0px;
+  max-height: 239px;
 }
 .portfolio-card-btn {
   background-color: inherit;
