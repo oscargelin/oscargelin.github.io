@@ -1,11 +1,6 @@
 // Index page
-
-console.log(document.location.pathname);
 const indexPage = "/index.html";
 const altIndexPage = "/";
-console.log("index page: " + indexPage)
-console.log("altIndexPage: " + altIndexPage)
-const contactPage = "/~osge0002/Portfolio%202.0/contact.html";
 
 // Fetching gradient colors for bg and btns
 let gradientGreen = getComputedStyle(document.documentElement).getPropertyValue(
@@ -36,6 +31,10 @@ const rightGridContent = document.querySelector(".right-grid-content");
 //fetching logo
 const siteLogo = document.querySelector(".site-logo");
 
+//to set a theme when storage is empty
+if (getTheme() == null) {
+  defaultTheme();
+}
 //Fetchin localStorage data
 let theme = getTheme();
 switch (theme) {
